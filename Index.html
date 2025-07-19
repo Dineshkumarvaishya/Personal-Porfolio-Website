@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Porfolio Website </title>
+   <link rel="stylesheet" href="Index.css">
+   <script src="https://kit.fontawesome.com/1932908c80.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+      <div class="container">
+      <nav >
+        <img src="logo.png" class="logo">
+        <ul id="sidemenu">
+          <li> <a href="#header" >Home</a> </li>
+          <li><a href="#about">About</a></li> 
+          <li> <a href="#services">Services</a> </li> 
+          <li>  <a href="#portfolio">Portfolio</a> </li> 
+           <li>  <a href="#contact">Contact</a> </li>
+           <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-tex">
+        <p>UI/UK Design</p>
+        <h1>Hi, I'm  <span>Dinesh</span> Kumar <br>  <i class="fa-solid fa-moon"></i> from Singrauli  </h1>
+      </div>
+    </div>  
+  </div>
+  <!-- --------------------------About------------------------------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+        <img src="AA1.jpg" alt="Resume">
+      </div>
+      <div class="about-col-2">
+        <h1 class ='sub-title'>About me</h1>
+        <p>Hello! I'm Dinesh Kumar Bais, a 20-year-old aspiring software engineer and a passionate learner, currently pursuing my B.Tech in Computer Science from SAGE University, under the Institute of Advanced Computing. I am in my 5th semester, having successfully completed the foundational four with a strong academic track.
+
+Hailing from Singrauli, Madhya Pradesh — the energy capital of India — I carry the values of hard work, discipline, and ambition. My short-term goal is to secure a promising role in the tech industry, where I can apply my skills in software development and grow as a professional.
+
+Beyond academics, I actively contribute to my family responsibilities and stay grounded with hobbies like volleyball and chess, which enhance my focus, strategy, and teamwork.
+
+With a long-term dream of becoming a licensed commercial pilot, I am steadily preparing myself, balancing both my engineering path and aviation aspirations — driven by curiosity, commitment, and a deep desire to reach greater heights.</p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>UI/Ux</span><br>Designing Web/App interfaces</li>
+            <li><span>Web Devlopment</span><br>Web App  Devlopment </li>
+            <li><span>App Devlopment</span><br>Building Android/iOS apps</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>2025 - Current</span><br>UI/UX Design Training at ET Institute</li>
+            <li><span>2024 - 2025</span><br>Team lead at StarApp LLC. </li>
+            <li><span>2021 - 2024</span><br>UI/Ux Design Executive at Coin Digital Ltd.</li>
+            <li><span>2020 - 2021</span><br>Internship at eKart ECommerce.</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2027</span><br>Sage University ,Indore</li>
+            <li><span>2023</span><br>Sanjay Higher Secondary School mada </li>
+            <li><span>2021</span><br>Sanjay Higher Secondary School mada</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+    <!-- --------------------------****------------------------------------- -->
+  <!-- --------------------------Services------------------------------------- -->
+          <div id="services">
+            <div class="container">
+              <h1 class="sub-title"> My Services</h1>
+               <div class="services-list">
+                <div>
+                  <i class="fa-solid fa-code"></i>
+                  <h2>UI/UX Design</h2>
+                  <p>Creative web design and UI/UX solutions tailored for modern, mobile-friendly, and user-focused experiences.</p>
+                  <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                  <i class="fa-solid fa-crop-simple"></i>
+                  <h2>Web Devloper</h2>
+                  <p>Professional web developer crafting responsive, fast, and interactive websites using HTML, CSS, JavaScript, and modern frameworks.</p>
+                  <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                  <i class="fa-brands fa-app-store-ios"></i>
+                  <h2>  Apps-Android Devloper </h2>
+                  <p>high-performance mobile apps using Java and Kotlin. Specializing in intuitive UI, backend integration, and smooth functionality.</p>
+                  <a href="#">Learn more</a>
+                </div>
+
+               </div>
+            </div>
+          </div>
+    <!-- --------------------------***------------------------------------- -->
+   <!-- --------------------------portfolio------------------------------------- -->
+       <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title"> My Works</h1>
+          <div class="work-list">
+
+            <div class="work">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoKJtf4WSFuIcFNeiysqbhVU6YT-6XMTRUUB5kg3shgNi4Chwy11-gV730Ix_zGhk9R_M&usqp=CAU" >
+              <div class="layer">
+                <h3>Social Media App </h3>
+                <p>The app connects you the talented people around the world  download from it play store</p>
+                <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+              </div>
+            </div>
+             
+             <div class="work">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBv6yZmMWf_MHKbDbN_LuJHCnxHvcrofrizQ&s" >
+               <div class="layer">
+                <h3>Basic Project</h3>
+                <p>The Music connects you the talented people around the world  download from it spotify </p>
+                <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+              </div>
+            </div>
+
+             <div class="work">
+              <img src="certificate.png" >
+               <div class="layer">
+                <h3>certificate </h3>
+                <p>The app connects you the talented people around the world  download from it play store</p>
+                <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+              </div>
+            </div>
+
+
+          </div>
+          <a href="#" class="btn">See more</a>
+        </div>
+       </div>
+   <!-- --------------------------***------------------------------------- -->
+   <!-- --------------------------Contact------------------------------------- -->
+   <div class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <div class="sub-title">Contact Me</div>
+          <p><i class="fas fa-paper-plane"></i>  email@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i> 8867195372</p>
+          <div class="social-icons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-square-github"></i></a>
+          </div>
+          <a href="Dinesh_Kumar%20Bais_cv_9477.pdf"  show class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Nmae" required>
+            <input type="email" name="Email" placeholder="Your Gmail" required>
+            <textarea name="Message" rows="6" placeholder="Your Massage"></textarea>
+            <button type="submit" class="btn btn2 ">Submit</button>
+          </form>
+          <span id="msg"> </span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright @ Kevin. made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+   </div>
+   <!-- --------------------------***------------------------------------- -->
+
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname)
+      {
+        for(tablink of tablinks)
+          {
+            tablink.classList.remove("active-link");
+          }
+
+        for(tabcontent of tabcontents)
+          {
+            tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu() {
+    sidemenu.style.right = "0";
+  }
+
+  function closemenu() {
+    sidemenu.style.right = "-200px";
+  }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyzhkDZNCRDOYOdf-TtY1Ku7cFq4j_6VdF8pg_pYdEKAoj6unSjKC2RBj8IUeXwkxI_/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML  = "Message sent Successfully"
+        setTimeout(function(){
+          msg.innerHTML  ="                   "
+        },5000)
+        form.reset()
+      },)
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+  </body>
+</html>
